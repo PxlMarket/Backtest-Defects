@@ -1,0 +1,9 @@
+side,entry_price,stop_price,entry_bar_low,entry_bar_high,pnl,note
+long,100.0,99.0,99.4,100.8,-1.0,clean loser
+long,100.0,99.0,99.5,101.2,2.0,clean winner
+short,50.0,51.0,49.2,50.6,-1.0,clean loser
+short,50.0,51.0,48.9,50.3,3.0,clean winner
+long,99.0,100.0,98.6,99.8,1.0,WRONG SIDE: long filled below its stop then 'stopped out' at 100 for a profit
+short,52.0,51.0,51.6,52.4,1.0,WRONG SIDE: short filled above its stop then 'stopped out' at 51 for a profit
+long,100.0,99.0,98.7,100.4,1.5,ENTRY BAR: low hit the stop on the fill bar but the engine let it run
+short,50.0,51.0,49.6,51.2,2.5,ENTRY BAR: high hit the stop on the fill bar but the engine let it run
